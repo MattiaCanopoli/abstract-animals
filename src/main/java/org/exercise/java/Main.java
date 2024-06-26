@@ -8,7 +8,7 @@ public class Main {
 		Animale aquila = new Aquila();
 		Cane cane = new Cane();
 		Delfino delfino = new Delfino();
-		Animale passerotto = new Passerotto();
+		Passerotto passerotto = new Passerotto();
 
 		Animale[] animali = new Animale[4];
 
@@ -24,6 +24,10 @@ public class Main {
 			animale.mangia();
 			System.out.println("- - - - ");
 		}
+
+		Utils.faiVolare(passerotto);
+		Utils.faiNuotare(cane);
+		Utils.faiNuotare(delfino);
 
 	}
 
